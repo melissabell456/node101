@@ -1,3 +1,4 @@
+using synchronous file loading
 const { readFileSync } = require('fs');
 const [,,fileName] = process.argv;
 
