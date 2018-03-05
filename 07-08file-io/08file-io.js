@@ -4,7 +4,7 @@ const { readFile } = require('fs');
 if (fileName) {
   try{
     readFile(fileName, 'utf8', function(err, contents) {
-    process.stdout.write(contents.toString());
+    process.stdout.write(contents);
   });
   }catch(err) {
     console.log("error", err)
