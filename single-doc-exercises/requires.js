@@ -17,7 +17,6 @@ const [,,fileArg] = process.argv;
 // process.exit();
 // }
 
-// console.log("this is the synch version");
 
 const { createReadStream, createWriteStream, appendFile, writeFile } = require('fs');
 const { Transform, Writable } = require('stream');
