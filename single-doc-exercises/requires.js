@@ -1,6 +1,6 @@
 
 // File System, gives us access to the file system
-const { readFileSync } = require('fs');
+// const { readFileSync } = require('fs');
 
 // const fileArg = process.argv[2]; same as:
 const [,,fileArg] = process.argv;
